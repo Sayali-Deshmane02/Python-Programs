@@ -27,23 +27,22 @@ while i <= num:
 num1=int(input("enter  num:"))
 add=0
 i=1
-while i<=num1
+while i<=num1:
      add=add+i
      i=i+1
      
 #write a prog to print sum of even nums upto n
-num1 = int(input("Enter a number: "))
-add = 0
-i = 1
+n = int(input("Enter a number: "))
+i = 2
+sum1 = 0
+while i <= n:
+    sum1 = sum1 + i
+    i += 2
 
-while i <= num1:
-    add = add + i
-    i += 1
+print("Sum of even numbers =", sum1)
 
-print("Sum of natural numbers =", add)
 
         
-
 #write  prog to print natural nums upto n in reverse order
 n3 = int(input("Enter a number: "))
 
@@ -51,7 +50,7 @@ while n3 >= 1:
     print(n3)
     n3 -= 1
     
-#write a prog to print the fibinacci series
+#write a prog to print the fibonacci series
 n4 = int(input("Enter the number of terms: "))
 a = 0
 b = 1
@@ -89,14 +88,14 @@ print("Sum of digits =", sum)
 
 #write a prog to check num is palindrome or not
 number = int(input("Enter a number: "))
-tempnumber
+temp=number
 rev = 0
 while number > 0:
     digit = number % 10
-    reverse = reverse * 10 + digit
+    rev = rev * 10 + digit
     number = number // 10
 
-if temp == reverse:
+if temp == rev:
     print("Palindrome Number")
 else:
     print("Not a Palindrome Number")
