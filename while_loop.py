@@ -128,5 +128,23 @@ while i <= n:
 print("Largest number =", largest)
 print("Smallest number =", smallest)
 
+#Write a PYTHON program to print sum of odd numbers up to n
+n = int(input("Enter n: "))
+i = 1
+sum = 0
+while i <= n:
+    sum = sum + i
+    i = i + 2
+print("Sum of odd numbers:", sum)
+
+#Write a PYTHON program to print sum of even numbers up to n
+n = int(input("Enter n: "))
+i = 2
+sum = 0
+while i <= n:
+    sum = sum + i
+    i = i + 2
+print("Sum of even numbers:", sum)
+
 
     
