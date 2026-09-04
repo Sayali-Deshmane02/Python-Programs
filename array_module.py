@@ -5,22 +5,22 @@ arr=array('i',elements)
 print(arr)
 
 #float
-from array import array
+
 ele=array('f',[8.9,5.6,3.4])
 print(ele)
 
 #double
-from array import array
+
 ele=list(map(float,input("Enter nums:").split()))
 arr1=array('d',ele)
 print(arr1)
 
 #Unicode
-from array import array
+
 ele=array('u',['A','B','C','D'])
 print(ele)
 
-from array import array
+
 
 
 # Signed Character
